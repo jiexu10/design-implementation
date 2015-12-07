@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+div.top-bar {
+  background-color: #37becc;
+  color: #f8f8f9;
+  padding: 20px;
+}
+
+div.top-bar ul, li {
+  background-color: #37becc;
+}
+
+.top-bar-right ul {
+  margin: 0px;
+}
+
+div.top-bar ul li a {
+  color: #f8f8f9;
+  margin: 8px;
+}
+
+.top-bar-right ul li {
+  list-style: none;
+  display: inline;
+  line-height: middle;
+}
+
+.top-bar .button {
+  margin: 0px;
+  border: 0px;
+  background-color: #ed1a7b;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    color: #f8f8f9;
+}
+
+.campus-overlay {
+  text-align: center;
+  background-color: #1c2224;
+  padding: 4em 0;
+  background-image: url(/images/background-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container-online {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container-online h2 {
+  color: #37becc;
+}
+
+.container-online img {
+  margin: 30px;
+}
+
+.developer-overlay {
+  text-align: center;
+  background-color: #1c2224;
+  padding: 4em 0;
+  background-image: url(/images/background-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hiring-section {
+  text-align: center;
+  background-color: #1c2224;
+  padding: 3em 0;
+}
+
+.hiring-section h2 {
+  color: #37becc;
+}
+
+.hiring-section .companies > .columns {
+  position: relative;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  float: left;
+}
+
+.hiring-section .companies .callout {
+  background-color: #282d2f;
+  color: #CCCCCC;
+  margin-top: 20px;
+}
+
+.contact-section {
+  text-align: center;
+  background-color: #E5F3F4;
+  padding: 2em 0;
+}
+
+.contact-section h2 {
+  color: #37becc;
+}
+
+.contact-section p {
+  color: #777777;
+  margin: 0px;
+}
+
+.container .button {
+  margin: 20px;
+}
+
+.overlay .button {
+  background-color: #84ce15;
+}
+
+.online .button {
+  background-color: #ed1a7b;
+}
+
+.hire-dev .button {
+  background-color: #84ce15;
+}
+
+.contact-section button {
+  float: left;
+  background-color: #84ce15;
+  margin: 0px;
+}
